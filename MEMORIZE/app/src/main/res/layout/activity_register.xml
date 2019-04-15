@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffece3"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="회원가입"
+                android:textColor="#fabebe"
+                android:textSize="50dp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="아이디를 입력해주세요"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호를 입력해주세요"
+                android:layout_marginTop="5dp"
+                android:inputType="textPassword"
+                android:textColorHint="#808080" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="이름을 입력해주세요"
+                android:textColorHint="#808080" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="sign up" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
